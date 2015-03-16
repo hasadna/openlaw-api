@@ -1,0 +1,13 @@
+## Kohana start
+modules/auth
+modules/cache
+modules/database
+modules/minion
+modules/orm
+modules/unittest
+#application/cache/*
+#application/logs/*
+#application/config/*
+## Kohana end
+
+vendor

@@ -1,0 +1,36 @@
+{
+  "name": "resource-il/openlaw-api",
+  "description": "The Open Law API",
+  "license": "MIT",
+  "type": "project",
+  "homepage": "http://www.openlaw.org.il/",
+  "authors": [
+    {
+      "name": "Yehuda Deutsch",
+      "email": "yeh@uda.co.il",
+      "homepage": "http://www.uda.co.il/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "support@openlaw.org.il",
+    "forum": "http://forum.hasadna.org.il/c/5-category/23-category"
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "monolog/monolog": "~1.11",
+    "kohana/core": "~3.3.0",
+    "kohana/database": "~3.3.0",
+    "kohana/orm": "~3.3.0",
+    "kohana/auth": "~3.3.0",
+    "kohana/minion": "~3.3.0",
+    "kohana/cache": "~3.3.0",
+    "addwiki/mediawiki-api": "~0.3.0",
+    "kohana/coding-standards": "~0.2.0"
+  },
+  "require-dev": {
+    "kohana/unittest": "~3.3.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
