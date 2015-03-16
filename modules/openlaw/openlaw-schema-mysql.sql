@@ -22,6 +22,7 @@ CREATE TABLE `knesset_old_laws` (
   `id`       INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
   `booklet`  INT(10) UNSIGNED NOT NULL,
   `part`     INT(10) UNSIGNED NOT NULL,
+  `knesset`  INT(10) UNSIGNED NOT NULL,
   `title`    VARCHAR(255)     NOT NULL,
   `accepted` INT(10) UNSIGNED NOT NULL,
   `pdf_file` VARCHAR(255)     NOT NULL,
