@@ -159,7 +159,7 @@ Kohana::modules(array(
  * defaults for the URI.
  */
 Route::set('default', '(<controller>(/<action>(/<id>)))')
-    ->defaults(array(
+    ->defaults([
         'controller' => 'openlaw',
         'action'     => 'index',
-    ));
+    ]);

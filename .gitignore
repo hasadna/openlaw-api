@@ -5,9 +5,9 @@ modules/database
 modules/minion
 modules/orm
 modules/unittest
-#application/cache/*
-#application/logs/*
-application/config/**
+application/cache/*
+application/logs/*
+application/config/*
 ## Kohana end
 
 vendor
