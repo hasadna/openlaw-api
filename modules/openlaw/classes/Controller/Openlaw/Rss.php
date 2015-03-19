@@ -4,6 +4,7 @@ class Controller_Openlaw_Rss extends Controller_Rss
 {
     public function action_index()
     {
+        $this->response->body('Rss Index');
         // TODO: List rss links
     }
 
