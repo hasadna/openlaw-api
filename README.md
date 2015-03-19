@@ -20,7 +20,7 @@ The application provides the following information:
 
 ## Sponsors
 
-* [The public Knowledge Workshop](http://www.hasadna.org.il/)
+* [The Public Knowledge Workshop](http://www.hasadna.org.il/)
 * [Wikimedia Israel](http://www.wikimedia.org.il/)
 
 ## Maintainers
