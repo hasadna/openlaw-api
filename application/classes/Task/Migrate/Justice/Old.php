@@ -6,7 +6,6 @@ class Task_Migrate_Justice_Old extends Minion_Task
     {
         $uri_format = 'http://law.resource.org.il/v0/booklet/year/%d';
         $booklet_log_format = 'Migrating booklet: %d';
-        $part_log_format = 'Migrating part: %d';
         $years = range(2005, 2015);
 
         $gmt_data_time_zone = new DateTimeZone('GMT');
